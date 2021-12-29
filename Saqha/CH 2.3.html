@@ -149,6 +149,11 @@ a {cursor: pointer;font-family: Poppins;}
 }
 
 .top:hover {}
+	
+	button {
+	background-color: transparent;
+		border: 0;
+	}
 
 @media (max-width: 500px) {.h1 {
  color: snow;
@@ -173,20 +178,20 @@ button{background: transparent;border: 0;}
   <div style="position: fixed;bottom: 15px; right: 15px;width:50px;height: 50px;text-align: center;color:seashell;border-radius: 50%;background-color: rgba(0, 0, 0, 0.5);backdrop-filter: blur(10px);"><a class="top" style="color: seashell;font-size: 23px;text-decoration: none;" href="#">↑</a></div>
 
   <div class="ww" style="width: 100%;position:fixed;top:0;background-color:rgba(99, 204, 137, 0.8);backdrop-filter: blur(5px);padding: 16px;color: gainsboro;transition: 1s;">
-    <a onclick="openbtn()" style="cursor: pointer;color: black;font-family: Permanent Marker;">Inform Our World | Saqha , Chapter 2 (Pt. 3)</a>
+    <button onclick="openbtn()" style="cursor: pointer;color: black;font-family: Permanent Marker;">Inform Our World | Saqha , Chapter 2 (Pt. 3)</button>
     <div style="position: fixed;right:30px;top:20px;color: black;">
     <a style="position: absolute;top: -5px;right: 300px;color: rgb(23,23,23);color: rgb(0, 85, 35);" href="https://inform-our-world.github.io/" >Home</a>
     <a style="position: absolute;top: -5px;right: 242.5px;color: rgb(23,23,23);" href="https://subhransuindia.github.io/Subhransu%20Patra.html">About</a>
     <a style="position: absolute;top: -5px;right: 190px;color: rgb(23,23,23);" href="https://inform-our-world.github.io/#more">More</a>
     
     <a style="position: absolute;top: -5px;right: 125px;color: rgb(23,23,23);" href="https://github.com/subhransuindia">Github</a>
-    <a onclick="darkmode()" title="dark_mode" class="material-icons" style="font-size: 20px;color: black;">dark_mode</a><a onclick="lightmode()" title="light_mode" class="material-icons" style="font-size: 20px;margin-left: 10px;color: black;">light_mode</a><a id="shareBtn" class="material-icons" title="share" style="font-size: 20px;margin-left: 10px;color: black;margin-right: 20px;">share</a></div>
+    <button onclick="darkmode()" title="dark_mode" class="material-icons" style="font-size: 20px;color: black;">dark_mode</button><button onclick="lightmode()" title="light_mode" class="material-icons" style="font-size: 20px;margin-left: 10px;color: black;">light_mode</button><button id="shareBtn" class="material-icons" title="share" style="font-size: 20px;margin-left: 10px;color: black;margin-right: 20px;">share</button></div>
   </div>
   
    <div class="cc" style="width: 100%;position:fixed;top:0;background-color:rgba(99, 204, 137, 0.8);backdrop-filter: blur(5px);padding: 16px;color: gainsboro;">
-    <a onclick="openbtn()" style="cursor: pointer;color: black;">☰ Saqha , Chapter 2 (Pt. 3)</a>
+    <button onclick="openbtn()" style="cursor: pointer;color: black;">☰ Saqha , Chapter 2 (Pt. 3)</button>
     <div style="position: fixed;right:30px;top:20px;color: black;">
-    <a onclick="darkmode()" class="material-icons" style="font-size: 20px;color: black;">dark_mode</a><a onclick="lightmode()" class="material-icons" style="font-size: 20px;margin-left: 10px;color: black;">light_mode</a><a id="shareBtn" class="material-icons" style="font-size: 20px;margin-left: 10px;color: black;margin-right: 20px;">share</a></div>
+    <button onclick="darkmode()" class="material-icons" style="font-size: 20px;color: black;">dark_mode</button><button onclick="lightmode()" class="material-icons" style="font-size: 20px;margin-left: 10px;color: black;">light_mode</button><button id="shareBtn" class="material-icons" style="font-size: 20px;margin-left: 10px;color: black;margin-right: 20px;">share</button></div>
   </div>
   
   <style>
@@ -309,7 +314,7 @@ button{background: transparent;border: 0;}
 <a href="https://subhransuindia.github.io" style="margin-right: 10px;">Home</a>
             <a href="https://subhransuindia.wordpress.com" >Blog</a>
             <a href="https://subhransuindia.github.io/#more" style="margin-left: 10px;">More</a>
-            <button id="demu" style="text-align: justify;background-color: transparent; border:0;color: white;cursor: pointer;font-size: 20px;" onclick="window.print()"><a class="fa fa-print"></a></button>
+            <button id="demu" style="text-align: justify;background-color: transparent; border:0;color: white;cursor: pointer;font-size: 20px;" onclick="window.print()"><button class="fa fa-print"></button></button>
         </div>
         </div>
 
