@@ -8,3 +8,5 @@ to share my writings to the internet world.
 > Thanks for Visiting...
 
 # [Inform Our World](https://inform-our-world.github.io/)
+
+[Subhransu's GitHub stats](https://github-readme-stats.vercel.app/api?username=subhransuindia&show_icons=true&theme=radical)
