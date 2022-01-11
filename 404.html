@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+::selection {
+background: transparent;
+text-shadow: 0px 0px 20px gray;
+}
+    .nav {position: fixed;top:0;background-color:rgba(23, 43, 83, 0.8);backdrop-filter: blur(10px);padding: 16px;transition: 0.3s;width: 100%;font-family: monospace;}
+    .a {margin-left: 10px;float:right;border: 2px solid rgb(0,0,0); color: cornsilk;padding: 5px;padding-left: 20px;padding-right: 20px;border-radius: 10px;text-decoration: none;transition: 0.3s;}
+    .a:hover {background: linear-gradient(to right,rgb(0,0,0), rgb(20,20,20));transition: 0.3s;border-radius: 20px;}
+
+body {
+  margin: 0;font-family: monospace;color: white;overflow-x: hidden;
+}
+
+    .h1 {text-align: center;font-size: 84px;transition: 1s;font-family: monospace;border:2px solid rgb(0, 0, 0);}
+    .h1:hover {border: 5px dashed white;filter: sepia(100%)}
+        .navs {height: 40px;position: fixed;top:-100%;background-color:rgba(23, 43, 83, 0.8);backdrop-filter: blur(10px);padding: 16px;transition: 0.3s;width: 100%;}
+            #na {width: 100%;height: 100%;top:-100%;background-color:rgba(23, 43, 83, 0.8);backdrop-filter: blur(10px);position: fixed;z-index: 1;}
+
+        
+         @media (max-width: 600px) {
+        .de {margin-top: 10px;margin-left: 10px;transition: 0.3s;}
+        .nav {top: -100%;transition: 0.3s;}
+        .navs {top: 0;}
+    }
+    @media (max-width: 600px) {
+        .h1 {font-size: 46px;transition: 1s;}
+    }
+ .dd {margin: 10px;border: 2px solid rgb(93, 197, 52); color: cornsilk;padding: 20px;padding-left: 20px;top: 20px;padding-right: 20px;border-radius: 10px;position: absolute;text-decoration: none;transition: 0.3s;}
+     .e {position: absolute;top: 120px;}
+     .f {position: absolute;top: 220px;}
+     .dd:hover {padding-left: 30px;padding-right: 30px;background: linear-gradient(to right,rgb(95, 170, 76), rgb(76, 170, 142));}
+
+</style>
+</head>
+<body>
+
+<nav class="navs">
+        <tagname onclick="opena()" style="position: absolute;top: 20px;font-size: 20px;text-shadow: 2px 2px 5px black;font-family: Satisfy;cursor: pointer;">☰</tagname>
+    </nav>
+    
+    <div id="na">
+        <a class="dd" href="https://inform-our-world.github.io/">Inform Our World</a><br>
+        <a class="dd e" href="https://github.com/subhransuindia">GitHub</a>  <br>
+        <a class=" dd f" href="https://dev.to/subhransuindia">Dev.to</a>
+        <tagname onclick="closa()" style="cursor: pointer;position: absolute;top: 20px;right: 20px;background: linear-gradient(to left,pink, violet);padding: 10px;border-radius: 100px;font-size: 20px;">X</tagname>
+    </div>
+
+        <div style="background-color: rgb(30, 0, 14);padding-bottom: 50vh;">
+    
+    <svg height="50vh" style="width: 100%;background: teal;background:linear-gradient(to bottom, rgb(23, 43, 83), rgb(23, 23, 23));">
+    
+    </svg>
+    
+    
+    <h1 class="h1" style="width: 70%;padding:37px;object-fit: cover;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);border-radius: 100px;background:rgba(0,0,0,0.5);backdrop-filter: blur(10px);color: white;z-index:0;" >404 ERROR; NOT FOUND!</h1>
+   
+    
+    </div>
+    
+    <nav class="nav">
+    <tagname style="position: absolute;top: 20px;font-size: 20px;text-shadow: 2px 2px 5px black;font-family: monospace;color: white;">Saqha, Chapter 2.6</tagname>
+    <a style="margin-right: 50px;" class="a" href="https://github.com/subhransuindia">GitHub</a>    
+    <a class="a" href="https://dev.to/subhransuindia">Dev.to</a>
+    <a class="a" href="https://inform-our-world.github.io/">Inform Our World</a>
+    
+    </nav>
+    
+    <script>
+            function opena() {
+                var x = document.getElementById("na")
+                x.style.top = "0"
+                x.style.transition = "0.3s"
+            }
+            function closa() {
+                var x = document.getElementById("na")
+                x.style.top = "-100%"
+                x.style.transition = "0.3s"
+            }
+        </script>
+
+</body>
+</html>
+
+
