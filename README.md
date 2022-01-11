@@ -9,4 +9,6 @@ to share my writings to the internet world.
 
 # [Inform Our World](https://inform-our-world.github.io/)
 
-[Subhransu's GitHub stats](https://github-readme-stats.vercel.app/api?username=subhransuindia&show_icons=true&theme=radical)
+[![Subhransu's GitHub stats](https://github-readme-stats.vercel.app/api?username=subhransuindia&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Languages used by me](https://github-readme-stats.vercel.app/api/top-langs/?username=subhransuindia&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
